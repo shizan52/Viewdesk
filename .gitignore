@@ -1,0 +1,33 @@
+# Captured browser sessions can contain cookies, e-mail addresses and payment-session data - never commit
+network/
+*.har
+
+# Runtime data (Viewdesk keeps its own under %APPDATA%\Viewdesk, outside the project)
+actions.log
+config.json
+session.json
+history.json
+window-profile/
+
+# Local knowledge-graph tooling and assistant config
+graphify-out/
+.graphifyignore
+CLAUDE.md
+.claude/
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
